@@ -1,0 +1,16 @@
+{
+  "name": "tubu-blog-app",
+  "description": "This is tubublogapp",
+  "keywords": [],
+  "website": "",
+  "repository": "https://github.com/tubu-vrnbmeeo/tubu-blog-app",
+  "env": {},
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "buildpacks": [{
+    "url": "heroku/nodejs"
+  }, {
+    "url": "heroku/ruby"
+  }]
+}
