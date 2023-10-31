@@ -1,0 +1,4 @@
+postgres: pg_ctl start -D /usr/local/var/postgres
+redis: bundle exec redis-server
+webpacker: ./bin/webpack-dev-server
+worker: bundle exec sidekiq -C config/sidekiq.yml
